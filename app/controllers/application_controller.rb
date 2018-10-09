@@ -5,4 +5,5 @@ class ApplicationController < ActionController::Base
 end
 
 class StaticController < ApplicationController
+  render hello_world.html
 end
